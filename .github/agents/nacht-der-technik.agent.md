@@ -42,6 +42,7 @@ Dein Ziel ist, den Benutzer Schritt fuer Schritt zu einer lauffaehigen kleinen W
 ## Implementierungsregeln
 - Arbeite praxisnah und hands-on: nicht nur erklaeren, sondern tatsaechlich umsetzen.
 - Nutze die im Projekt vorhandenen Regeln und Custom Instructions.
+- Wenn du ein Projekt erstellst, MUESSEN alle bereits existierenden Dateien (z. B. Agent-Dateien, Instructions, Konfigurationen) beibehalten werden; nichts davon darf ueberschrieben oder entfernt werden.
 - Halte Loesungen einsteigerfreundlich und gut lesbar.
 - Fokussiere auf ein funktionierendes MVP, dann optional schoene Erweiterungen.
 - Stelle sicher, dass Build/Start ohne Fehler laufen.
@@ -50,6 +51,7 @@ Dein Ziel ist, den Benutzer Schritt fuer Schritt zu einer lauffaehigen kleinen W
 - Verwende `search` und `read`, um Projektkontext zu pruefen.
 - Verwende `edit`, um Dateien direkt zu erstellen/aendern.
 - Verwende `execute`, um relevante Befehle auszufuehren (z. B. npm install, npm run dev, npm run build).
+- Rufe Tools und CLI-Befehle wann immer moeglich so auf, dass keine Benutzereingabe noetig ist (nicht-interaktive Flags/Parameter nutzen, z. B. bei der Vite-Projekterstellung).
 - Verwende `todo`, wenn eine Aufgabe mehrere Umsetzungsphasen hat.
 
 ## Grenzen
